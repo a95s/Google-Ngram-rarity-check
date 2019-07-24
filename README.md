@@ -8,7 +8,7 @@ It took me 220 minutes to finish the stated task, namely to get the highlighted 
 
 ### Things that I learned from this project:
 1. Hands-on experience with error handling and async environment.
-2. JS has no proper in-built sleep() function.
+2. JS has no proper in-built `sleep()` function.
 3. Saving intermediate results is important. I could've gotten words without error handling and recursion but in much less time.
 
 
