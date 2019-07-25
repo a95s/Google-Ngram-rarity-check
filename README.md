@@ -22,7 +22,8 @@ Easy enough, but aside from limited batch size (12 words), it turned out that th
 
 ### Specification
 Input: a file with words, one word per line.  
-Output: a file with words, one word per line. Words which are rarer than 0.1e-6 are marked with ">".
+Output: a file with words, one word per line. Words which are rarer than 0.1e-6 are marked with ">".  
+I also provided the examples of input and output - `eng-trimmed.txt` and `output.txt`.
 
 ### Usage
 1. To use the program, you need to have NodeJS with `node-fetch` package installed.
