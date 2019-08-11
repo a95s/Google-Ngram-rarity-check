@@ -18,7 +18,7 @@ async function fetchNgram(phrases)
 
     var errorCounter = 0;
     var json = null;
-    var waitingTime = 30000;
+    var waitingTime = 240000;
     json = await getTheData(errorCounter, waitingTime, json, params);
     if (json === null)
     {
