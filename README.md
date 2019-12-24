@@ -1,4 +1,4 @@
-# Google Ngram words rarity highlighter
+# Rarity highlighter for words based on Google Ngram data
 ## For recruiters
 A NodeJS-based parser of HTML responses from [Google Ngram][1].  
 Asynchronous, recursive, with error handling.  
