@@ -1,20 +1,6 @@
-# Rarity highlighter for words based on Google Ngram data
-## For recruiters
-You look at a parser of HTML responses from [Google Ngram][1], made on NodeJS.  
-It's asynchronous, recursive, and with error handling.  
-The site parsing is taken [from here][2].  
-
-### Things that I learned from this project:
-1. Hands-on experience with error handling and async environment.
-2. JS has no proper in-built `sleep()` function.
-3. Saving intermediate results is important.
-
-
-## For users
-### The task
-If you have a list of English words to learn, but there are many rare ones, so you want to separate them from more frequent words.
-
-Checking thousands of words in Google Ngram one-by-one is boring. The program here automates the process.
+# Rarity highlighter for Google Ngrams
+You have a list of English words, but there are too many rare ones in it, and you want to learn only more frequent ones?  
+This parser solves that problem for you. It parses HTML responses from [Google Ngram][1]. It's asynchronous, recursive, and with error handling. The site-parsing is taken [from here][2].
 
 ### Specification
 Input: a file of words, one word per line.  
