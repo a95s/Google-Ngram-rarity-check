@@ -5,7 +5,7 @@ This parser solves that problem for you. It parses HTML responses from [Google N
 ### Specification
 Input: a txt file of words, one word per line.  
 Output: a txt file of words, one word per line. Words which are rarer than 0.1e-6 are marked with ">".  
-You can find the examples of input and output in `eng-trimmed.txt` and `output.txt`.
+You can find the examples of input and output in `input.txt` and `output.txt`.
 
 ### Usage
 1. You need to have NodeJS with the `node-fetch` package installed.
