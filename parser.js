@@ -6,7 +6,7 @@ const ngram = require('./ngram.js');
 const fs = require('fs');
 const batchSize = 12;
 
-data = fs.readFileSync('./eng-trimmed.txt', 'utf8');
+data = fs.readFileSync('./input.txt', 'utf8');
 array = data.split('\n')
 var i;
 var batch = [];
